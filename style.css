@@ -24,10 +24,6 @@ body {
   font-weight: 100;
 }
 
-ul {
-  list-style: none;
-}
-
 .image-gallery {
   display: flex;
   flex-wrap: wrap;
@@ -75,10 +71,33 @@ ul {
   transform: scale(1);
 }
 
-.onebutton {
+.onerow{
   display: flex;
-  justify-content: space-around;
-  width: 100%;
+}
+
+.hep{
+  margin: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  width: 33%;
+  justify-content: center;
+}
+
+.balls{
+  margin: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  width: 33%;
+  justify-content: center;
+}
+
+.mom{
+  height: 2px;
+  margin: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  width: 33%;
+  justify-content: center;
 }
 
 .twobutton {
@@ -94,10 +113,10 @@ ul {
 }
 
 .button-1 {
+  margin: 6px;
   width: 140px;
   height: 50px;
   border: 2px solid #34495e;
-  float: left;
   text-align: center;
   cursor: pointer;
   position: relative;
@@ -135,7 +154,6 @@ ul {
   width: 140px;
   height: 50px;
   border: 2px solid #34495e;
-  float: left;
   text-align: center;
   cursor: pointer;
   position: relative;
@@ -172,7 +190,6 @@ ul {
   width: 140px;
   height: 50px;
   border: 2px solid #34495e;
-  float: left;
   text-align: center;
   cursor: pointer;
   position: relative;
