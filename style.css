@@ -160,12 +160,6 @@ img{
   justify-content: center;
 }
 
-.threebutton {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-}
-
 .button-1 {
   margin: 6px;
   width: 140px;
@@ -277,6 +271,7 @@ img{
 }
 
 .button-4 {
+  margin: 6px;
   width: 140px;
   height: 50px;
   border: 2px solid #34495e;
@@ -352,6 +347,7 @@ img{
   color: #fff;
 }
 .button-6 {
+  margin: 6px;
   width: 140px;
   height: 50px;
   border: 2px solid #34495e;
